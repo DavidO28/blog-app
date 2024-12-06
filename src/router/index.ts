@@ -5,7 +5,7 @@ const router = createRouter({
   history: createWebHistory('/blog-app/'),
   routes: [
     {
-      path: '/blog-app',
+      path: '/',
       name: 'home',
       component: HomeView,
     },
