@@ -75,7 +75,7 @@
 
       emit('blogDeleted')
     } catch (error) {
-      console.error('Error deleting blog:', error.message)
+      console.error('Error deleting blog:', error.message as string)
     }
   }
 </script>

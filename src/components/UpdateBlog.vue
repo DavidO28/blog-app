@@ -69,7 +69,7 @@
 
       router.push('/')
     } catch (error) {
-      console.error('Error updating blog:', error.message)
+      console.error('Error updating blog:', error.message as string)
     }
   }
 
@@ -91,7 +91,7 @@
         author.value = data.author
       }
     } catch (error) {
-      console.error('Error fetching blog:', error.message)
+      console.error('Error fetching blog:', error.message as string)
     }
   }
 

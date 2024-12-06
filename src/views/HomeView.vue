@@ -30,7 +30,7 @@
   import { supabase } from '@/supabaseClient'
 
   const errorMessage = ref<string | null>(null)
-  const blogs = ref<Array[]>([])
+    const blogs = ref<(string)[]>([])
   const orderBy = ref<string>('created_at')
   const showScrollToTop = ref<boolean>(false)
 
