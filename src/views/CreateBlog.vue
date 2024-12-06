@@ -59,7 +59,7 @@
         author.value = ''
         errorMessage.value = null
       }
-      router.push('/blog-app')
+      router.push('/')
     } catch (error) {
       errorMessage.value = 'An unexpected error occurred.'
       throw error
