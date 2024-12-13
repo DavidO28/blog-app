@@ -75,29 +75,28 @@
 
       emit('blogDeleted')
     } catch (error) {
-      console.error('Error deleting blog:', error.message as string)
+      console.error('Error deleting blog:', error.message)
     }
   }
 </script>
 
 <style scoped>
   div {
-    max-width: 600px;
-    margin: 0.5rem auto;
-    padding: 0.5rem;
+    margin: 0.25rem auto;
+    padding: 0.25rem;
     border: 1px solid black;
     border-radius: 6px;
     background: #fff;
   }
 
   h2 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     margin-bottom: 1rem;
     color: #333;
   }
 
   p {
-    font-size: 1.25rem;
+    font-size: 1rem;
     margin: 0.75rem 0;
     color: #555;
   }

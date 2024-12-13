@@ -1,5 +1,4 @@
 <template>
-  <div>
     <h1>Blogs List</h1>
     <ul>
       <li
@@ -21,7 +20,6 @@
     >
       ↑
     </button>
-  </div>
 </template>
 
 <script setup lang="ts">
@@ -76,13 +74,6 @@
 </script>
 
 <style scoped>
-  div {
-    padding: 2rem;
-    border-radius: 10px;
-    border: 1px solid gray;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-
   h1 {
     color: #333;
     font-size: 2rem;

@@ -2,7 +2,7 @@
   <header>
     <nav>
       <RouterLink to="/">Home</RouterLink>
-      <RouterLink to="/create-blog">Create a new blog</RouterLink>
+      <RouterLink to="/create-blog">Create new blog</RouterLink>
     </nav>
   </header>
   <main>
@@ -23,7 +23,7 @@ body {
 }
 
 header {
-  padding: 1rem;
+  padding: 0.5rem;
   border-bottom: 2px solid #333;
 }
 
@@ -47,6 +47,6 @@ nav a:hover {
 }
 
 main {
-  margin: 2rem;
+  margin: 0.5rem;
 }
 </style>
